@@ -13,7 +13,7 @@ public class EBayTestingApp {
         driver.get("https://www.ebay.com");
 
         WebElement element = driver.findElement(By.id("gh-ac"));
-        element.sendKeys("Laptop");
+        element.sendKeys("laptop");
         element.submit();
     }
 }
